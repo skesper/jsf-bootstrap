@@ -9,10 +9,16 @@ Define the
 <pre>
 xmlns:k="http://kesper-software.de/jsf-bootstrap"
 </pre>
-Namespace.
+Namespace to your JSF page. 
 
 You need to have a working bootstrap installation in your web application. I did not want to define a certain version 
-you'll then need to stick with. Use your own version and feel free to adapt themes and/or change colors.
+you'll then need to stick with. Use your own version and feel free to adapt themes and/or change colors. And if you're going to use the <code>dataTable</code> Tag, you'll need in your webapp under <code>resources/images</code> three images:
+
+<ul>
+<li><code>sort_asc.png</code> - The image of an arrow pointing upwards.</li>
+<li><code>sort_desc.png</code> - The image of an arrow pointing downwards.</li>
+<li><code>sort_both.png</code> - An image that represents the unsorted state. Usually that is a grey version of arrows both up- and downwards.</li>
+</ul>
 
 <h3>Components</h3>
 
