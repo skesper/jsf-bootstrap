@@ -40,7 +40,7 @@ public class IconTag extends UIOutput {
     
     @Override
     public String getFamily() {
-        return "icons";
+        return "icon";
     }
 
     @Override

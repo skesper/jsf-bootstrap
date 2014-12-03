@@ -25,7 +25,6 @@ THE SOFTWARE.
 package de.kesper.software.bootstrap.components.button;
 
 import java.io.IOException;
-import java.util.logging.Logger;
 import javax.faces.component.FacesComponent;
 import javax.faces.component.html.HtmlCommandButton;
 import javax.faces.context.FacesContext;

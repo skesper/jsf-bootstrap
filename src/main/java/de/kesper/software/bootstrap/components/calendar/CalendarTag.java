@@ -41,16 +41,6 @@ import javax.faces.component.UIInput;
 public class CalendarTag extends UIInput {
     
     private String format = "dd.mm.yyyy";
-    private String value;
-
-    @Override
-    public String getValue() {
-        return value;
-    }
-
-    public void setValue(String value) {
-        this.value = value;
-    }
 
     public String getFormat() {
         return format;
