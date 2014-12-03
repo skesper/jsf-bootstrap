@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facelet-taglib version="2.0"
+                xmlns="http://java.sun.com/xml/ns/javaee"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facelettaglibary_2_0.xsd">
+    <namespace>http://kesper-software.de/jsf-bootstrap</namespace>
+
+    <tag>
+        <tag-name>button</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.button.ButtonTag</component-type>
+        </component>      
+        <attribute>
+            <name>styleClass</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>action</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <tag-name>messages</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.message.MessagesTag</component-type>
+        </component>      
+    </tag>
+
+    <tag>
+        <tag-name>calendar</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.calendar.CalendarTag</component-type>
+            <renderer-type>de.kesper.software.bootstrap.components.calendar.CalendarRenderer</renderer-type>
+        </component>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>format</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <tag-name>dataTable</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.datatable.DataTableTag</component-type>
+        </component>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <type>Object</type>
+        </attribute>
+        <attribute>
+            <name>var</name>
+            <required>true</required>
+            <type>String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <tag-name>column</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.datatable.ColumnTag</component-type>
+        </component>
+        <attribute>
+            <name>headerText</name>
+            <required>true</required>
+            <type>String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <tag-name>icon</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.icon.IconTag</component-type>
+        </component>      
+    </tag>
+
+    <tag>
+        <tag-name>well</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.well.WellTag</component-type>
+        </component>      
+    </tag>
+
+    <tag>
+        <tag-name>jumbotron</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.jumbotron.JumbotronTag</component-type>
+        </component>      
+    </tag>
+
+    <tag>
+        <tag-name>badge</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.badge.BadgeTag</component-type>
+        </component>      
+        <attribute>
+            <description>To pull content right</description>
+            <name>pullRight</name>
+            <required>false</required>
+            <type>boolean</type>
+        </attribute>
+        <attribute>
+            <name>value</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <tag-name>label</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.badge.LabelTag</component-type>
+        </component>
+        <attribute>
+            <name>styleClass</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <tag-name>form-group</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.forms.FormGroupTag</component-type>
+        </component>
+        <attribute>
+            <name>label</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>for</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <name>horizontal</name>
+            <required>false</required>
+            <type>boolean</type>
+        </attribute>
+        <attribute>
+            <name>horizontalDivClass</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <tag-name>grid</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.grid.GridTag</component-type>
+        </component>
+    </tag>
+
+    <tag>
+        <tag-name>row</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.grid.GridRowTag</component-type>
+        </component>
+    </tag>
+
+    <tag>
+        <tag-name>item</tag-name>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.grid.GridItemTag</component-type>
+        </component>
+        <attribute>
+            <name>span</name>
+            <required>true</required>
+            <type>int</type>
+        </attribute>
+    </tag>
+
+    <tag>
+        <tag-name>panel</tag-name>
+        <attribute>
+            <description>The Header Text</description>
+            <name>header</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <description>The Footer Text</description>
+            <name>footer</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <attribute>
+            <description>Panel style</description>
+            <name>styleClass</name>
+            <required>true</required>
+            <type>java.lang.String</type>
+        </attribute>
+        <component>
+            <component-type>de.kesper.software.bootstrap.components.panel.PanelTag</component-type>
+        </component>      
+    </tag>
+    
+</facelet-taglib>
