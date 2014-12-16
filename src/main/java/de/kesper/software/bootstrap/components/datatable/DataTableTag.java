@@ -165,7 +165,7 @@ public class DataTableTag extends UIData {
                 "			\"sLengthMenu\":      \"_MENU_ Einträge anzeigen\",\n" +
                 "			\"sLoadingRecords\":  \"Wird geladen...\",\n" +
                 "			\"sProcessing\":      \"Bitte warten...\",\n" +
-                "			\"sSearch\":          \"Suchen\",\n" +
+                "			\"sSearch\":          \"Filter\",\n" +
                 "			\"sZeroRecords\":     \"Keine Einträge vorhanden.\",\n" +
                 "			\"oPaginate\": {\n" +
                 "				\"sFirst\":       \"Erste\",\n" +
