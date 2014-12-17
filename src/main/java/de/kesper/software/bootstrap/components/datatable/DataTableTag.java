@@ -45,6 +45,7 @@ import javax.faces.context.ResponseWriter;
  * @author kesper
  */
 @ResourceDependencies({
+    @ResourceDependency(library="jsf-bootstrap", name="jquery-2.1.1.js"),
     @ResourceDependency(library="jsf-bootstrap", name="jquery.dataTables.css"),
     @ResourceDependency(library="jsf-bootstrap", name="jquery.dataTables.min.js")
 })
