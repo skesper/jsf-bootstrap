@@ -153,7 +153,7 @@ public class DataTableTag extends UIData {
     
     private static final String script1 = "$(document).ready(function() {\n" +
                 "		$('#";
-    private static final String script2 = "').DataTable({\n \"pageLength\": 50, " +
+    private static final String script2 = "').DataTable({\n \"pageLength\": 50, \"order\" : [[]], " +
                 "        \"sFilterInput\":\"input-sm\", " +
                 "        \"language\":\n" +
                 "		{\n" +
